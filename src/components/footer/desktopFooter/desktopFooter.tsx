@@ -2,7 +2,7 @@ import {ReactElement} from "react";
 import SimpleButton from "../../simpleButton/simpleButton";
 import Facebook from '../../../assets/icons/facebook.svg';
 import Instagram from '../../../assets/icons/instagram.svg';
-import LinkedIn from '../../../assets/icons/linkedin.svg';
+// import LinkedIn from '../../../assets/icons/linkedin.svg';
 import Address from '../../../assets/icons/address.png';
 import Phone from '../../../assets/icons/phone.png';
 import Email from '../../../assets/icons/email.png';
@@ -78,15 +78,15 @@ export default function DesktopFooter(): ReactElement {
                                 <img src={Instagram} alt={'instagram link'}/>
                             </a>
                         </div>
-                        <div className={'social-icon'}>
-                            <a
-                                href={"https://www.linkedin.com/company/santa-barbara-myo/"}
-                                target={"_blank"}
-                                rel={"noreferrer"}
-                            >
-                                <img src={LinkedIn} alt={'linkedin link'}/>
-                            </a>
-                        </div>
+                        {/*<div className={'social-icon'}>*/}
+                        {/*    <a*/}
+                        {/*        href={"https://www.linkedin.com/company/santa-barbara-myo/"}*/}
+                        {/*        target={"_blank"}*/}
+                        {/*        rel={"noreferrer"}*/}
+                        {/*    >*/}
+                        {/*        <img src={LinkedIn} alt={'linkedin link'}/>*/}
+                        {/*    </a>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
                 <div className={'footer-divider'}/>
