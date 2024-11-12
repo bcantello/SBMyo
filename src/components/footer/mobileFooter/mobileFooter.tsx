@@ -58,11 +58,11 @@ export default function MobileFooter(): ReactElement {
                             <img src={Address} alt={'Address drop pin'}/>
                         </a>
                         <a
-                            href={"https://www.google.com/maps/search/?api=1&query=5290%20Overpass%20Road%20Suite%20211%20Santa%20Barbara%2C%20California%2C%2093111"}
+                            href={"https://www.google.com/maps/search/?api=1&query=4141%20State%20Street%20Suite%20E9%20Santa%20Barbara%2C%20California%2C%2093110"}
                             target={"_blank"}
                             rel={"noreferrer"}
                         >
-                            5290 Overpass Road Suite 211, Santa Barbara CA 93111
+                            4141 State Street Suite E9, Santa Barbara CA 93110
                         </a>
                     </div>
                 </div>
