@@ -53,7 +53,7 @@ export default function NavBar(): ReactElement {
                         CONTACT
                     </Link>
                     <Link className={"nav-link"} to={"/about"}>
-                        ABOUT NICOLE
+                        ABOUT
                     </Link>
                     <Link className={"nav-link"} to={"/resources"}>
                         RESOURCES
