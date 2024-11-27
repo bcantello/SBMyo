@@ -2,8 +2,8 @@ import {ReactElement} from "react";
 import Navigation from "../../components/navigation/navigation";
 import Banner from "../../components/banner/banner";
 import Bougainvillea from "../../assets/bannerImages/Bougainvillea2.jpeg"
-import Headshot from "../../assets/NicoleHeadshot.jpg";
-import Family from "../../assets/familyPicture.jpg"
+import NicoleHeadshot from "../../assets/NicoleHeadshot.jpg";
+import EmilyHeadshot from "../../assets/EmilyHeadshot.jpeg";
 import './about.scss';
 
 /**
@@ -19,19 +19,24 @@ export default function About(): ReactElement {
                 imageAlt={'bougainvillea hanging over wall'}
                 imageTitle={'bougainvillea hanging over wall'}
             />
-            <h1>About Nicole</h1>
+            <h1>About Our Therapists</h1>
             <div className={"about-content-container"}>
                 <div className={"about-image-container"}>
                     <img
                         id={'headshot-image'}
-                        src={Headshot}
+                        src={NicoleHeadshot}
                         alt={"nicole myofunctional therapist headshot"}
                         title={'Nicole Cantello, orofacial myofunction therapist'}
                         loading={'lazy'}
                     />
+                    <div>
+                        <p>Nicole Cantello RDH, OMT</p>
+                        <p>Owner of Santa Barbara Myo</p>
+                    </div>
                 </div>
                 <div className={"about-content"}>
                     <div>
+                        <h2>Nicole Cantello</h2>
                         <p>Nicole is passionate about dental and airway health. She’s been in the dental field since
                             2010 and graduated from Dental Hygiene school in 2015 at the top of her class, receiving
                             both Valedictorian and the best in clinic Golden Scaler award. Nicole has been
@@ -69,14 +74,37 @@ export default function About(): ReactElement {
                     </div>
                 </div>
             </div>
-            <div className={"about-image-container"}>
-                <img
-                    id={'family-image'}
-                    src={Family}
-                    alt={"family picture"}
-                    title={'Nicole\'s family'}
-                    loading={'lazy'}
-                />
+            <div className={"about-content-container"}>
+                <div className={"about-image-container"}>
+                    <img
+                        id={'headshot-image'}
+                        src={EmilyHeadshot}
+                        alt={"emily myofunctional therapist headshot"}
+                        title={'Emily Shonio, orofacial myofunction therapist'}
+                        loading={'lazy'}
+                    />
+                    <div>
+                        <p>Emily Shonio RDH, OMT</p>
+                    </div>
+                </div>
+                <div className={"about-content"}>
+                    <div>
+                        <h2>Emily Shonio</h2>
+                        <p>With over 10 years of experience as a dental hygienist, Emily has developed a deep understanding
+                            of oral health and its connection to overall well-being. Throughout her career, she has become
+                            increasingly passionate about holistic health and root cause medicine, leading her to expand
+                            her expertise to include myofunctional therapy. As a home birth mom, she is also a strong advocate for
+                            natural, empowering approaches to health and wellness.</p>
+                        <p>In addition to her dental background, Emily is a certified yoga instructor, which has further
+                            enhanced her appreciation for the mind-body connection and the importance of proper
+                            breathing, posture, and alignment in maintaining health. Her unique blend of professional
+                            experience and personal philosophy fuels her commitment to helping individuals achieve
+                            optimal health through non-invasive, holistic methods.</p>
+                        <p>Emily is dedicated to supporting her patients by improving their oral function, breathing
+                            patterns, and overall health, while always prioritizing a comprehensive, root-cause approach
+                            to wellness.</p>
+                    </div>
+                </div>
             </div>
         </>
     );
