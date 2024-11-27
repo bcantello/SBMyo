@@ -3,6 +3,7 @@
 	margin: 0 auto;
 	width: 70vw;
 	max-width: 1400px;
+	padding-bottom: 5em;
 
 	@media (max-width: 1023px) {
 		display: block;
@@ -25,11 +26,19 @@
 		img {
 			height: 400px;
 			padding-right: 3em;
-			padding-top: 2em;
+			padding-top: 5.5em;
 
 			@media (max-width: 1023px) {
 				height: 350px;
 				padding-top: 1em;
+				padding-right: 0;
+			}
+		}
+
+		div {
+			padding-right: 3em;
+
+			@media (max-width: 1023px) {
 				padding-right: 0;
 			}
 		}
