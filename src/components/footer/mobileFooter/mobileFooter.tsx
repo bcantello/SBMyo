@@ -24,7 +24,7 @@ export default function MobileFooter(): ReactElement {
                         href={"https://santabarbaramyo.clientsecure.me/request/service"}
                     />
                     <SimpleButton
-                        buttonText={'Request a Free Phone Consul'}
+                        buttonText={'Request a Free Phone Consult'}
                         destination={'https://hushforms.com/santabarbaramyo_consultation'}
                     />
                 </div>
