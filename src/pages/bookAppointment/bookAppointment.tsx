@@ -29,10 +29,10 @@ export default function BookAppointment(): ReactElement {
                     plan for an expense of $225 for your initial visit which will be collected at time of service. (For
                     more details see the How It Works page) </p>
                 <p>I am currently seeing new patients age 5 and older Monday through Friday from 8:30 to 5:00.</p>
-                {/*<SimplePracticeWidget*/}
-                {/*    buttonText={'Schedule Comprehensive Exam'}*/}
-                {/*    href={"https://nicole-cantello.clientsecure.me/request/service"}*/}
-                {/*/>*/}
+                <SimplePracticeWidget
+                    buttonText={'Schedule Comprehensive Exam'}
+                    href={"https://santabarbaramyo.clientsecure.me/request/service"}
+                />
                 <p>Not ready to schedule yet? Do you have questions you would like to talk through? You can schedule a
                     complimentary 15 minute phone consult with Nicole!</p>
                 <SimpleButton

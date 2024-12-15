@@ -1,4 +1,5 @@
 import {ReactElement} from "react";
+import SimplePracticeWidget from "../../simplePracticeWidget/simplePracticeWidget";
 import SimpleButton from "../../simpleButton/simpleButton";
 import Facebook from '../../../assets/icons/facebook.svg';
 import Instagram from '../../../assets/icons/instagram.svg';
@@ -18,9 +19,12 @@ export default function MobileFooter(): ReactElement {
             <div className={'mobile-footer-content-wrapper'}>
                 <div className={'mobile-footer-book-appointment'}>
                     <h2>Ready To Learn More?</h2>
-                    {/*Book an Appointment through Simple Practice*/}
+                    <SimplePracticeWidget
+                        buttonText={'Schedule Comprehensive Exam'}
+                        href={"https://santabarbaramyo.clientsecure.me/request/service"}
+                    />
                     <SimpleButton
-                        buttonText={'Request a Consultation'}
+                        buttonText={'Request a Free Phone Consul'}
                         destination={'https://hushforms.com/santabarbaramyo_consultation'}
                     />
                 </div>
@@ -62,7 +66,7 @@ export default function MobileFooter(): ReactElement {
                             target={"_blank"}
                             rel={"noreferrer"}
                         >
-                            4141 State Street Suite E9, Santa Barbara CA 93110
+                            4141 State Street Suite E8, Santa Barbara CA 93110
                         </a>
                     </div>
                 </div>
