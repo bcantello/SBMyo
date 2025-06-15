@@ -21,18 +21,18 @@ export default function DesktopFooter(): ReactElement {
                     <div className={'footer-contact-container'}>
                         <div className={'footer-phone-container'}>
                             <a
-                                href={"tel:805-453-1343"}
+                                href={"tel:805-770-2040"}
                                 target={"_blank"}
                                 rel={"noreferrer"}
                             >
                                 <img src={Phone} alt={'Address drop pin'}/>
                             </a>
                             <a
-                                href={"tel:805-453-1343"}
+                                href={"tel:805-770-2040"}
                                 target={"_blank"}
                                 rel={"noreferrer"}
                             >
-                                805-453-1343
+                                805-770-2040
                             </a>
                         </div>
                         <div className={'footer-email-container'}>
