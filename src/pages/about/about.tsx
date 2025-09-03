@@ -109,16 +109,16 @@ export default function About(): ReactElement {
                         id={'headshot-image'}
                         src={LindyHeadshot}
                         alt={"Lindy myofunctional therapist headshot"}
-                        title={'Lindy Luong, orofacial myofunction therapist'}
+                        title={'Lindy Loung, orofacial myofunction therapist'}
                         loading={'lazy'}
                     />
                     <div>
-                        <p>Lindy Luong RDH, OMT</p>
+                        <p>Lindy Loung RDH, OMT</p>
                     </div>
                 </div>
                 <div className={"about-content"}>
                     <div>
-                        <h2>Lindy Luong</h2>
+                        <h2>Lindy Loung</h2>
                         <p>After over a decade working as a dental hygienist, she realized there was a significant gap in knowledge surrounding myofunctional therapy. Educating patients about oral hygiene has always been at the heart of what she loves most as a dental hygienist. Her thoughtful approach, ability to ask the right questions, and commitment to functional, personalized care made the transition into myofunctional therapy a natural next step.</p>
                         <p>Driven by her own journey and a strong desire to reach and support others, she is passionate about helping patients gain awareness and improve their health, one breath at a time.</p>
                         <p>Outside of the myo world, she and her husband—alongside the enthusiastic help of their 4-year-old son—have spent the past few years transforming the interior and exterior of their home into a peaceful, relaxing oasis.</p>
